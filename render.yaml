@@ -3,7 +3,7 @@ previews:
   expireAfterDays: 3
 services:
 - type: web
-  plan: standard
+  plan: pro
   previews:
     plan: starter
   name: express-backend
@@ -33,5 +33,5 @@ databases:
 - name: postgres_db
   databaseName: test_db
   user: test_user
-  plan: standard
+  plan: pro
   previewPlan: starter

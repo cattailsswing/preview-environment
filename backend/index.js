@@ -16,6 +16,14 @@ const TodoItem = sequelize.define('todos', {
         type: Sequelize.STRING,
         allowNull: false
     },
+    priority: { // <-- ADD THIS NEW FIELD
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        defaultValue: 3, // Optional: default to least critical
+        validate: {
+            isIn: [[1, 2, 3]] // Optional: ensures only 1, 2, or 3 are allowed
+        }
+    }
 });
 
 TodoItem.sync()

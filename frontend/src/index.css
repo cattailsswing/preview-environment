@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+/* --- Added background color --- */
+  background-color: #FAE1DD; /* A soft, pastel pink */
+
+  /* --- Other color options --- */
+  /* background-color: #E6E6FA; */ /* Lavender */
+  /* background-color: #F0FFF0; */ /* Honeydew (a very light mint) */
+  /* background-color: #FFE5B4; */ /* Light Peach */
 }
 
 code {
